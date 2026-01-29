@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+__pycache__/
+
+# Python cache
+*.pyc
+
+# Outputs / trained models
+outputs/
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db

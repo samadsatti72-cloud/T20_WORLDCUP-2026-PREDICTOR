@@ -1,0 +1,56 @@
+Match No.,Date,Day,teamA,teamB,Venue,stage
+1,7/2/2026,Friday,Netherlands,Pakistan,R. Premadasa Stadium,Group A
+2,7/2/2026,Friday,Scotland,West Indies,Eden Gardens,Group C
+3,7/2/2026,Friday,India,USA,Wankhede Stadium,Group A
+4,8/2/2026,Saturday,Afghanistan,New Zealand,R. Premadasa Stadium,Group D
+5,8/2/2026,Saturday,England,Nepal,Wankhede Stadium,Group C
+6,8/2/2026,Saturday,Sri Lanka,Ireland,R. Premadasa Stadium,Group B
+7,9/2/2026,Sunday,Italy,Scotland,Eden Gardens,Group C
+8,9/2/2026,Sunday,Oman,Zimbabwe,R. Premadasa Stadium,Group B
+9,9/2/2026,Sunday,Canada,South Africa,Narendra Modi Stadium,Group D
+10,10/2/2026,Monday,Namibia,Netherlands,Arun Jaitley Stadium,Group A
+11,10/2/2026,Monday,New Zealand,UAE,MA Chidambaram Stadium,Group D
+12,10/2/2026,Monday,Pakistan,USA,R. Premadasa Stadium,Group A
+13,11/2/2026,Tuesday,Afghanistan,South Africa,Narendra Modi Stadium,Group D
+14,11/2/2026,Tuesday,Australia,Ireland,R. Premadasa Stadium,Group B
+15,11/2/2026,Tuesday,England,West Indies,Wankhede Stadium,Group C
+16,12/2/2026,Wednesday,Sri Lanka,Oman,Pallekele Cricket Stadium,Group B
+17,12/2/2026,Wednesday,Italy,Nepal,Wankhede Stadium,Group C
+18,12/2/2026,Wednesday,India,Namibia,Arun Jaitley Stadium,Group A
+19,13/02/2026,Thursday,Australia,Zimbabwe,R. Premadasa Stadium,Group B
+20,13/02/2026,Thursday,Canada,UAE,Arun Jaitley Stadium,Group D
+21,13/02/2026,Thursday,Netherlands,USA,MA Chidambaram Stadium,Group A
+22,14/02/2026,Friday,Ireland,Oman,R. Premadasa Stadium,Group B
+23,14/02/2026,Friday,England,Scotland,Eden Gardens,Group C
+24,14/02/2026,Friday,New Zealand,South Africa,Narendra Modi Stadium,Group D
+25,15/02/2026,Saturday,Nepal,West Indies,Wankhede Stadium,Group C
+26,15/02/2026,Saturday,Namibia,USA,MA Chidambaram Stadium,Group A
+27,15/02/2026,Saturday,India,Pakistan,R. Premadasa Stadium,Group A
+28,16/02/2026,Sunday,Afghanistan,UAE,Arun Jaitley Stadium,Group D
+29,16/02/2026,Sunday,England,Italy,Eden Gardens,Group C
+30,16/02/2026,Sunday,Australia,Sri Lanka,Pallekele Cricket Stadium,Group B
+31,17/02/2026,Monday,Canada,New Zealand,MA Chidambaram Stadium,Group D
+32,17/02/2026,Monday,Ireland,Zimbabwe,Pallekele Cricket Stadium,Group B
+33,17/02/2026,Monday,Scotland,Nepal,Wankhede Stadium,Group C
+34,18/02/2026,Tuesday,South Africa,UAE,Arun Jaitley Stadium,Group D
+35,18/02/2026,Tuesday,Namibia,Pakistan,R. Premadasa Stadium,Group A
+36,18/02/2026,Tuesday,India,Netherlands,Narendra Modi Stadium,Group A
+37,19/02/2026,Wednesday,Sri Lanka,Zimbabwe,R. Premadasa Stadium,Group B
+38,19/02/2026,Wednesday,Italy,West Indies,Eden Gardens,Group C
+39,19/02/2026,Wednesday,Afghanistan,Canada,MA Chidambaram Stadium,Group D
+40,20/02/2026,Thursday,Australia,Oman,Pallekele Cricket Stadium,Group B
+41,21/02/2026,Friday,GroupA_Winner,GroupB_Winner,Narendra Modi Stadium,Super 8 - Group X
+42,21/02/2026,Friday,GroupC_Winner,GroupD_Winner,Eden Gardens,Super 8 - Group X
+43,22/02/2026,Saturday,GroupA_Runner,GroupB_Runner,R. Premadasa Stadium,Super 8 - Group Y
+44,22/02/2026,Saturday,GroupC_Runner,GroupD_Runner,Pallekele Cricket Stadium,Super 8 - Group Y
+45,23/02/2026,Sunday,GroupA_Winner,GroupD_Winner,Arun Jaitley Stadium,Super 8 - Group X
+46,23/02/2026,Sunday,GroupB_Winner,GroupC_Winner,Wankhede Stadium,Super 8 - Group X
+47,24/02/2026,Monday,GroupA_Runner,GroupD_Runner,MA Chidambaram Stadium,Super 8 - Group Y
+48,24/02/2026,Monday,GroupB_Runner,GroupC_Runner,R. Premadasa Stadium,Super 8 - Group Y
+49,25/02/2026,Tuesday,GroupA_Winner,GroupC_Winner,Narendra Modi Stadium,Super 8 - Group X
+50,25/02/2026,Tuesday,GroupB_Winner,GroupD_Winner,Arun Jaitley Stadium,Super 8 - Group X
+51,26/02/2026,Wednesday,GroupA_Runner,GroupC_Runner,Wankhede Stadium,Super 8 - Group Y
+52,26/02/2026,Wednesday,GroupB_Runner,GroupD_Runner,Pallekele Cricket Stadium,Super 8 - Group Y
+53,4/3/2026,Wednesday,Super8X_Winner,Super8Y_Winner,Eden Gardens,Semi-Final 1
+54,5/3/2026,Thursday,Super8X_Runner,Super8Y_Runner,Wankhede Stadium,Semi-Final 2
+55,8/3/2026,Sunday,SF1_Winner,SF2_Winner,Narendra Modi Stadium,Final
