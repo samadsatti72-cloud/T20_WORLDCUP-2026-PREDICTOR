@@ -180,8 +180,8 @@ def simulate_knockout(model, elo_lookup, semi_finalists):
 
 def monte_carlo(fixtures_path, model_path, n=300):
     print("=" * 60)
-    print("🏆 T20 WORLD CUP 2026 SIMULATION STARTED")
-    print(f"🔢 Monte Carlo runs: {n}")
+    print(" T20 WORLD CUP 2026 SIMULATION STARTED")
+    print(f" Monte Carlo runs: {n}")
     print("=" * 60)
 
     # Load fixtures
@@ -235,7 +235,7 @@ def monte_carlo(fixtures_path, model_path, n=300):
             print(f"⏳ Completed {i}/{n} simulations ({elapsed}s elapsed)")
 
     print("=" * 60)
-    print("✅ SIMULATION COMPLETED")
+    print(" SIMULATION COMPLETED")
     print("=" * 60)
 
     return finalist_counter, champion_counter, semi_finalists_counter
@@ -252,19 +252,19 @@ def main():
         args.fixtures, args.model, args.n
     )
 
-    print("\n🏆 MOST LIKELY CHAMPIONS\n")
+    print("\n MOST LIKELY CHAMPIONS\n")
     total = sum(champion_results.values())
     for team, count in champion_results.most_common(10):
         probability = count / total
         print(f"{team:20s} → {probability:6.2%} ({count} times)")
 
-    print("\n🥈 MOST LIKELY FINALISTS\n")
+    print("\n MOST LIKELY FINALISTS\n")
     total = sum(finalist_results.values())
     for teams, count in finalist_results.most_common(10):
         probability = count / total
         print(f"{teams[0]:15s} vs {teams[1]:15s} → {probability:6.2%}")
 
-    print("\n🎯 MOST LIKELY SEMI-FINALISTS\n")
+    print("\n MOST LIKELY SEMI-FINALISTS\n")
     total = sum(semi_results.values())
     for teams, count in semi_results.most_common(5):
         probability = count / total
