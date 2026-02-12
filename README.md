@@ -9,6 +9,17 @@ A machine learning–powered Monte Carlo simulation framework to predict outcome
 - Monte Carlo tournament simulation
 - Group → Super 8 → Knockout logic
 
-## 📁 Project Structure
-"# T20_WORLDCUP-2026-PREDICTOR" 
-"# T20_WORLDCUP-2026-PREDICTOR" 
+## 📂 Project Structure
+
+The project is organized into modular components for scalability and clarity:
+
+- **data/** – Contains historical match data and tournament fixtures.
+- **outputs/** – Stores trained ML models and ELO rating lookup files.
+- **src/** – Core source code including:
+  - Data preprocessing
+  - ELO rating calculation
+  - Model training
+  - Match prediction
+  - Tournament simulation
+- **README.md** – Project documentation.
+- **.gitignore** – Specifies files ignored by Git.
