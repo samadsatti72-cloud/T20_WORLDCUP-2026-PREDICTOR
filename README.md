@@ -10,3 +10,4 @@ A machine learning–powered Monte Carlo simulation framework to predict outcome
 - Group → Super 8 → Knockout logic
 
 ## 📁 Project Structure
+"# T20_WORLDCUP-2026-PREDICTOR" 
