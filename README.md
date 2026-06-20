@@ -1,4 +1,4 @@
--# 🏏 T20_WORLDCUP-2026-PREDICTOR
+# 🏏 T20_WORLDCUP-2026-PREDICTOR
 
 <p align="center">
   <b>Interactive prediction workflow for T20 World Cup 2026 match outcomes.</b><br/>
@@ -59,4 +59,139 @@ It is designed for fast experimentation, easy reproducibility, and clear reporti
 ├── outputs/           # Predictions/reports/charts
 ├── scripts/           # Utility scripts
 ├── tests/             # Automated tests
-└── README.md 
+└── README.md
+```
+
+> If folder names differ in your repo, update this section to match exactly.
+
+---
+
+## ⚡ Quick Start
+
+### 1) Clone
+
+```bash
+git clone https://github.com/samadsatti72-cloud/T20_WORLDCUP-2026-PREDICTOR.git
+cd T20_WORLDCUP-2026-PREDICTOR
+```
+
+### 2) Create virtual environment
+
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+```
+
+### 3) Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4) Run
+
+```bash
+python -m src.main
+```
+
+> If your entrypoint differs, replace with your exact run command.
+
+---
+
+## 🧪 Usage
+
+### Match prediction flow
+
+1. Choose Team A and Team B  
+2. Provide optional scenario inputs (if supported)  
+3. Execute script/notebook  
+4. Read predicted winner and probabilities  
+
+<details>
+<summary><b>Example command pattern (adjust to your code)</b></summary>
+
+```bash
+python -m src.main --team1 "India" --team2 "England"
+```
+
+</details>
+
+---
+
+## 📊 Output
+
+Common outputs include:
+
+- Predicted winner
+- Team win probabilities
+- Confidence indicator
+- Optional explanation/feature impact
+
+> Predictions are probabilistic, not guaranteed outcomes.
+
+---
+
+## ⚙️ Configuration
+
+Use local config and environment variables for flexibility and safety.
+
+```bash
+cp .env.example .env
+```
+
+- Keep secrets out of source control
+- Store keys/tokens only in `.env` or secret managers
+
+---
+
+## 🔐 Security & Safety
+
+- ❌ Do not commit API keys, tokens, credentials
+- ❌ Do not expose private/internal datasets
+- ✅ Sanitize logs and exported reports
+- ✅ Review dependencies periodically
+
+---
+
+## ✅ Recommended Quality Checks
+
+Run before pushing changes:
+
+```bash
+# examples
+# pytest
+# flake8 .
+# black --check .
+```
+
+---
+
+## 🧭 Roadmap
+
+- [ ] Improve model quality for T20 context
+- [ ] Add richer evaluation metrics
+- [ ] Integrate venue/toss features
+- [ ] Add lightweight UI for interactive predictions
+- [ ] Expand CI/testing coverage
+
+---
+
+## 🤝 Contributing
+
+1. Fork repository  
+2. Create feature branch  
+3. Commit focused changes  
+4. Open PR with clear summary and validation
+
+---
+
+## 📄 License
+
+**Private** (update if you choose MIT/Apache-2.0/etc.)
+
+---
+
+<p align="center"><sub>Built for cricket analytics and practical ML workflows 🏏</sub></p>
