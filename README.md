@@ -59,4 +59,4 @@ It is designed for fast experimentation, easy reproducibility, and clear reporti
 ├── outputs/           # Predictions/reports/charts
 ├── scripts/           # Utility scripts
 ├── tests/             # Automated tests
-└── README.md **.gitignore** – Specifies files ignored by Git.
+└── README.md 
